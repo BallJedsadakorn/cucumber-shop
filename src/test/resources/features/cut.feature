@@ -15,3 +15,5 @@ Feature: Cut stock
         And I buy "Ham" with quantity 2
         Then stock of "Bread" should be 2
         Then stock of "Ham" should be 8
+
+        #Jedsadakorn Boonlerd 6410450770

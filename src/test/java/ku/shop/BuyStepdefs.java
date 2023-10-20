@@ -33,6 +33,8 @@ public class BuyStepdefs {
         assertEquals(total, order.getTotal());
     }
 
+    /* Jedsadakorn Boonlerd 6410450770*/
+
     @Then("stock of {string} should be {int}")
     public void stock_should_be(String name, int stock) {
         assertEquals(stock, catalog.getProduct(name).getStock());
